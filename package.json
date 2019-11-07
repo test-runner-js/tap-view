@@ -15,7 +15,7 @@
     "node": ">=8"
   },
   "scripts": {
-    "test": "test-runner test.js"
+    "test": "node test.js"
   },
   "files": [
     "index.js"

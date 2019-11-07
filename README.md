@@ -14,6 +14,12 @@ Adds TAP-compatible output to test-runner.
 $ npm install --save-dev @test-runner/tap-view
 
 $ test-runner --view @test-runner/tap-view test/*.js
+TAP version 13
+1..3
+ok bad option: should fail and printError
+ok arrays: new array does not overwrite if it is empty
+ok Invalid middleware: no middleware method
+# Passed: 3, failed: 0, skip: 0
 ```
 
 * * *
