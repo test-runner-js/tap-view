@@ -1,0 +1,30 @@
+{
+  "name": "@test-runner/tap-view",
+  "author": "Lloyd Brookes <75pound@gmail.com>",
+  "version": "0.0.0",
+  "description": "Adds TAP-compatible output to test-runner",
+  "repository": "https://github.com/test-runner-js/tap-view",
+  "keywords": [
+    "test",
+    "test-runner",
+    "view",
+    "tap"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "test-runner test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "test-object-model": "^0.4.8",
+    "test-runner-core": "^0.7.2"
+  },
+  "dependencies": {
+    "js-yaml": "^3.13.1"
+  }
+}
